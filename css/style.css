@@ -7,11 +7,7 @@ body{
 header, nav{
     /* Set padding and margin */
     padding: 10px 20px 10px 20px;
-    margin: 10px;
-}
-
-nav{
-    text-align: center;
+    margin: 20px 0px 20px 0px;
 }
 
 nav ul li{
@@ -44,7 +40,7 @@ nav a.current{
 
 h1{
    /*Set font and font size*/
-    font-size: 26pt;
+    font-size: 30pt;
     font-family: Merriweather, Anton, "Times New Roman" ;
 }
 
@@ -67,11 +63,12 @@ h1, h2, h3{
 .grid{
     /*Set width, margin, border properties, background color, and grid properties */
     display: grid;
-    margin: auto 50px 50px 50px;
+    margin: 0px 50px 50px 50px;
     border-radius: 30px;
-    grid-template-columns: repeat(3, 30%);
+    grid-template-columns: auto auto auto;
     background-color: #f5d3c6;
     width: 90%;
+    height: 30%;
     justify-content: center;
     align-content: center;
     column-gap: 50px;
